@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+
+<body class="home-body">
+    <nav class="navbar">
+        <a href="/index.html">
+            <div class="title">CJ Lemen</div>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <!-- <li><a href="#">Home</a></li> -->
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="/reviews.html">Reviews</a></li>
+                <li><a href="/contact.html" class="contact-us">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- DIV 1  -->
+<div class="review-bg-section">
+    <div class="review-text-section">
+        <p>
+            REVIEW CENTER
+        </p>
+        <h1>CLIENTS WE'VE WORKED WITH AND DELIVERED FOR</h1>
+        <p>We are dedicated to delivering exceptional results.
+            But don't take it from us, see what others say.</p>
+        <a href="#review"><button class="sharp">Take a look →</button></a>
+        <p class="leave-a-review">
+            <a href="#review">
+                Leave a review
+            </a>
+        </p>
+    </div>
+    <div class="review-image-section">
+        <img src="img/smiling-client.jpeg" class="review-image"></img>
+    </div>
+</div>
+
+<!-- DIV 2 -->
+<div class="review-post-section">
+    <div class="leave-a-review-section">
+        <div class="heading">
+            <h2>LEAVE A REVIEW</h2>
+        </div>
+
+        <section id="review" class="contact-form review-contact-form">
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone">
+                <input type="text" class="message" placeholder="Message">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+
+    <div class="review-carousel-section">
+        <div class="slideshow-container">
+            <div class="slideshow-card">
+                <div class="mySlides fade">
+                    <h2 class="testimonial-text">"From start to finish, the team was incredibly professional,
+                        knowledgeable, and dedicated to providing me with the best possible service."</h2>
+                    <div class="name-with-image">
+                        <img class="testimonial-image" src="img/pebbles-man.jpeg" alt="new-york-client">
+                        <em>Pebbles, New York</em>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <h2 class="testimonial-text">"They were able to create a customized solution that perfectly met my
+                        business's needs and exceeded my expectations."</h2>
+                    <div class="name-with-image">
+                        <img class="testimonial-image" src="img/ranchton-man.jpeg" alt="oklahoma-client">
+                        <em>Ranchton, Oklahoma</em>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <h2 class="testimonial-text">"Their attention to detail and commitment to delivering a high-quality
+                        product was evident throughout the entire process."</h2>
+                    <div class="name-with-image">
+                        <img class="testimonial-image" src="img/cape-town-woman.jpeg" alt="cape-town-client">
+                        <em>Cape Town, South Africa</em>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <label>&copy; CJ Lemen 2023</label>
+</footer>
+<script type="text/javascript" src="static/js/carousel.js"></script>
+</body>
+
+</html>

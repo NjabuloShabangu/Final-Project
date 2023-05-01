@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="43.919" y="41.523" width="24.938" height="27.334"/>
+  </defs>
+  <g style="" transform="matrix(3.749775, 0, 0, 3.749775, -614.703552, -473.901611)">
+    <path d="M 188.896 134.634 C 172.19 134.634 172.19 134.634 172.19 151.34 C 155.484 218.164 205.602 268.283 272.427 251.577 C 289.133 251.577 289.133 251.577 289.133 234.871 C 305.839 168.046 255.721 117.927 188.896 134.634 C 172.19 134.634 172.19 134.634 172.19 151.34" stroke="#DDDD99" fill="#FFFFAA" style="stroke-width: 8px;"/>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(221, 221, 153);" cx="189.72" cy="152.28" rx="2.522" ry="2.522" transform="matrix(0.999993, -0.003839, 0.003839, 0.999993, -0.686478, 0.85316)" bx:origin="0.546 0.581"/>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(221, 221, 153);" cx="189.72" cy="152.28" rx="2.522" ry="2.522" transform="matrix(0.999993, -0.003839, 0.003839, 0.999993, 15.783659, 0.231298)" bx:origin="0.546 0.581"/>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(221, 221, 153);" cx="189.72" cy="152.28" rx="2.522" ry="2.522" transform="matrix(0.999993, -0.003839, 0.003839, 0.999993, -0.812362, 16.930419)" bx:origin="0.546 0.581"/>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(221, 221, 153);" cx="189.72" cy="152.28" rx="2.522" ry="2.522" transform="matrix(0.999993, -0.003839, 0.003839, 0.999993, 84.067805, 84.4987)" bx:origin="0.546 0.581"/>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(221, 221, 153);" cx="189.72" cy="152.28" rx="2.522" ry="2.522" transform="matrix(0.999993, -0.003839, 0.003839, 0.999993, 83.914371, 69.141439)" bx:origin="0.546 0.581"/>
+    <ellipse style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(221, 221, 153);" cx="189.72" cy="152.28" rx="2.522" ry="2.522" transform="matrix(0.999993, -0.003839, 0.003839, 0.999993, 67.244189, 84.896497)" bx:origin="0.546 0.581"/>
+  </g>
+</svg>
